@@ -461,6 +461,7 @@
 				CF880E891823594300B5F504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF880E8A1823594300B5F504 /* Build configuration list for PBXNativeTarget "GravityTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +470,7 @@
 				CF880E8C1823594300B5F504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

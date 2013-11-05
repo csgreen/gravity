@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface CSGViewController : UIViewController
+
+@property (nonatomic, strong) IBOutletCollection(UIView) NSArray *bubbleViews;
+
+
 
 @end
