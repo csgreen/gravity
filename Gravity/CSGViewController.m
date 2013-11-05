@@ -31,7 +31,7 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear: animated];
-   
+    
     _animator = [[UIDynamicAnimator alloc] initWithReferenceView:self.view];
     
     UICollisionBehavior *collisionBehavior = [[UICollisionBehavior alloc] initWithItems:self.bubbleViews];
@@ -39,17 +39,18 @@
    
     
     _gravity = [[UIGravityBehavior alloc] initWithItems:self.bubbleViews];
-
-    
     
     for (UIView *view in self.bubbleViews)
     {
-        view.layer.cornerRadius = 8;
+        view.layer.cornerRadius = 5;
         view.layer.masksToBounds = YES;
         [_animator addBehavior:_gravity];
         [_animator addBehavior: collisionBehavior];
     }
 }
+
+
+
 
 
 - (void)didReceiveMemoryWarning
